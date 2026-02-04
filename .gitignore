@@ -12,6 +12,8 @@ session-env
 shell-snapshots
 statsig
 telemetry
+tasks
 todos
 stats-cache.json
 history.jsonl
+keybindings.json

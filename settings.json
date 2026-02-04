@@ -8,7 +8,6 @@
       "Bash(git cherry-pick:*)",
       "Bash(git status:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)",
       "Bash(git log:*)",
       "Bash(git diff:*)",
       "Bash(git branch:*)",
