@@ -4,31 +4,7 @@
     "allow": [
       "Read",
       "Edit",
-      "Bash(git apply:*)",
-      "Bash(git cherry-pick:*)",
-      "Bash(git status:*)",
-      "Bash(git add:*)",
-      "Bash(git log:*)",
-      "Bash(git diff:*)",
-      "Bash(git branch:*)",
-      "Bash(git show:*)",
-      "Bash(git fetch:*)",
-      "Bash(git pull:*)",
-      "Bash(git checkout:*)",
-      "Bash(git switch:*)",
-      "Bash(git mv:*)",
-      "Bash(git restore:*)",
-      "Bash(git rebase:*)",
-      "Bash(git stash:*)",
-      "Bash(git remote:*)",
-      "Bash(git tag:*)",
-      "Bash(git blame:*)",
-      "Bash(git config --list:*)",
-      "Bash(git config --get:*)",
-      "Bash(git ls-files:*)",
-      "Bash(git ls-remote:*)",
-      "Bash(git rev-parse:*)",
-      "Bash(git merge-base:*)",
+      "Bash(git:*)",
       "Bash(gh --version)",
       "Bash(gh auth status)",
       "Bash(gh repo view:*)",
@@ -86,10 +62,18 @@
       "Bash(go vet:*)",
       "Bash(go clean:*)",
       "Bash(go test:*)",
-      "Bash(go run:*)"
+      "Bash(go run:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:patch-diff.githubusercontent.com)",
+      "Bash(mise tasks:*)",
+      "Bash(mise task info:*)",
+      "Bash(docker compose:*)",
+      "Bash(oats:*)"
     ],
     "ask": [
       "Bash(git push:*)",
+      "Bash(git -C * push:*)",
       "Bash(rm:*)"
     ],
     "defaultMode": "acceptEdits"
@@ -103,5 +87,6 @@
   "enabled": true,
   "autoAllowBashIfSandboxed": true,
   "gitAttribution": false,
-  "gitSignoff": true
+  "gitSignoff": true,
+  "model": "opus"
 }
